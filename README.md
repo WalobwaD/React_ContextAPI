@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<h2 align="center"> REACT CONTEXT</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> <h4>Context Meaning</h4>
 
-## Available Scripts
+- <p>In a typical React application, data is passed from parent to child components via props (commonly known s prop drilling), but such usage can be cumbersome for certain types of props that are required by many components within an application. <b><em>Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</em></b></p>
 
-In the project directory, you can run:
+<h3 align="center">Mixtape Repo</h3>
 
-### `npm start`
+- <p>This simple single page REACT project is the complete step by step beginner's guide on how to use React Context!</p> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary>What you'll learn from this simple repo:</summary>
+  <ol>
+    <li>How to avoid prop drilling by using React Contexts</li>
+    <li>Creating Context objects using <code>createContext()</code></li>
+    <li>How to use the <code>useContext()</code> hook inside child components for the props to be available to them.</li>
+    <li>Updating the context value in descendant React components</li>
+    <li>Structuring nested providers for the same type of context</li>
+ </ol>
+</details>
+<details><summary>Snippet</summary></details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+  <summary>
+  <b>NOTE!!</b>
+  </summary>
+  <p>Keep in mind, too, that Context is not always the best solution for your application’s architecture. There are other ways to handle state such as Redux, useReducer, or just useState and prop drilling (which isn’t always a problem)</p>
+  <p>It’s best used sparingly and only for prop drilled values that don’t change very frequently.</p>
+</details>
 
-### `npm test`
+><h4>Mixtape Repo Structure</h4>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>I kept the structure of the React project simple for learning purposes</p>
+<details>
+<summary>
+<h5>Cloning and starting the Repo</h5>
+</summary>
 
-### `npm run build`
+```jsx
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone {url of the repository}
+cd mixtape
+npm install
+npm start
+```
+</details>
+<details>
+<summary>Folder structure</summary>
+<p>Inside the root directory (mixtape), you can see a <code>public</code> folder and a <code>src</code> folder and a <code>node modules</code> folder after install the dependacies required, we'll be dealing with the <code>src</code> folder for now.
+<p>The <code>src</code> folder has the main components needed for the project</p>
+<details>
+<summary>
+<code>src</code> folder
+</summary>
+<code>Controls.js</code>
+<code>MixtapeApp.js</code>
+<code>MixtapeContext.js</code>
+<code>Songs.js</code>
+<code>SongList.js</code>
+</details>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
