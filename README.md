@@ -68,6 +68,7 @@
 </details>
 
 <details>
+
   <summary>
 
   ><p>Explanation of the codes written in each and every folder, try to follow/code along as you learn. Refer the codes above(in the src folder) to find the exact codes.</p>
@@ -77,6 +78,12 @@
     <p><code>MixtapeContext</code>Folder</p>
     </summary>
     <p>This is the main Context API Folder(where the magic happens).</p>
+    <p>React, useState and createContext are imported at the top because they'll be of use.</p>
+    <p>A context object name MixtapeContext(can be named anyhow because it's a variable name) is created using <code>createContext()</code> API. which returns a 
+    Provider which will be used further</p>
+    <p>A MixtapeProvider function is created right after the context object, the function will be the main feature which will be the provider of the props in our         project, it takes in two parameters <code>children</code> and <code>songs</code></p>
+    <p></p>
+    <p>The <code>children</code> will allow the provider to pass in props nested inside the context Provider</p>
   </details>
 </details>
 
