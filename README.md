@@ -18,7 +18,10 @@
     <li>Structuring nested providers for the same type of context</li>
  </ol>
 </details>
-<details><summary>Snippet</summary></details>
+<details>
+  <summary>Snippet</summary>
+  <img src="./mixtape.png" alt="snippet of the project">
+</details>
 
 <details>
   <summary>
@@ -31,33 +34,50 @@
 ><h4>Mixtape Repo Structure</h4>
 
 <p>I kept the structure of the React project simple for learning purposes</p>
-<details>
-<summary>
-<h5>Cloning and starting the Repo</h5>
-</summary>
 
-```jsx
+<details>
+  <summary>
+    <h5>Cloning and starting the Repo</h5>
+  </summary>
 
-git clone {url of the repository}
-cd mixtape
-npm install
-npm start
-```
+  ```jsx
+
+  git clone {url of the repository}
+  cd mixtape
+  npm install
+  npm start
+  ```
 </details>
+
 <details>
-<summary>Folder structure</summary>
-<p>Inside the root directory (mixtape), you can see a <code>public</code> folder and a <code>src</code> folder and a <code>node modules</code> folder after install the dependacies required, we'll be dealing with the <code>src</code> folder for now.
-<p>The <code>src</code> folder has the main components needed for the project</p>
-<details>
-<summary>
-<code>src</code> folder
-</summary>
-<code>Controls.js</code>
-<code>MixtapeApp.js</code>
-<code>MixtapeContext.js</code>
-<code>Songs.js</code>
-<code>SongList.js</code>
+  <summary>Folder structure</summary>
+  <p>Inside the root directory (mixtape), you can see a <code>public</code> folder and a <code>src</code> folder and a <code>node modules</code> folder after install the dependacies required, we'll be dealing with the <code>src</code> folder for now.</p>
+  <p>The <code>src</code> folder has the main components needed for the project</p>
+
+  <details>
+    <summary>
+      <code>src</code> folder
+    </summary>
+    <code>Controls.js</code>
+    <code>MixtapeApp.js</code>
+    <code>MixtapeContext.js</code>
+    <code>Songs.js</code>
+    <code>SongList.js</code>
+  </details>
+
 </details>
+
+<details>
+  <summary>
+
+  ><p>Explanation of the codes written in each and every folder, try to follow/code along as you learn. Refer the codes above(in the src folder) to find the exact codes.</p>
+  </summary>
+  <details>
+    <summary>
+    <p><code>MixtapeContext</code>Folder</p>
+    </summary>
+    <p>This is the main Context API Folder(where the magic happens).</p>
+  </details>
 </details>
 
 
