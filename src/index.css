@@ -3,22 +3,23 @@
 }
 
 .app {
+  border: 1px solid black;
   margin: auto;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .heading {
-  text-align: center;
+  text-align: left;
 }
 
 .song {
   background: black;
-  border-radius: 10px;
+  border-radius: .625rem;
   color: white;
   font-family: cursive;
-  height: 300px;
-  margin: 5px;
-  padding: 35px 20px;
+  height: 18.75rem;
+  margin: .3125rem;
+  padding: 2.1875rem 1.25rem;
   position: relative;
 }
 
@@ -28,15 +29,15 @@
   border-radius: 100%;
   content: "";
   display: block;
-  font-size: 70px;
-  height: 70px;
-  line-height: 70px;
-  outline: 5px solid black;
+  font-size: 4.375rem;
+  height: 4.375rem;
+  line-height: 4.375rem;
+  outline: .3125rem solid black;
   position: absolute;
   text-align: center;
-  top: calc(50% - 35px);
-  width: 70px;
-  box-shadow: 0 0 5px 10px lightgray;
+  top: calc(50% - 2.1875rem);
+  width: 4.375rem;
+  box-shadow: 0 0 .3125rem .625rem lightgray;
   z-index: 2;
 }
 
@@ -61,8 +62,8 @@
   content: "☰";
   position: absolute;
   color: lightgray;
-  right: calc(50% - 25px);
-  font-size: 50px;
+  right: calc(50% - 1.5625rem);
+  font-size: 3.125rem;
   opacity: 0.5;
   transform: scaleX(1500%);
 }
@@ -82,23 +83,23 @@
 
 .name {
   align-items: center;
-  border-radius: 10px;
+  border-radius: .625rem;
   display: flex;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-weight: bold;
   height: 30%;
   justify-content: center;
-  line-height: 35px;
+  line-height: 2.1875rem;
   margin: 0 10%;
   text-align: center;
-  text-shadow: 0 0 3px white, 0 0 5px white, 0 0 10px white;
+  text-shadow: 0 0 .1875rem white, 0 0 .3125rem white, 0 0 .625rem white;
 }
 
 .details {
   bottom: 0;
-  padding: 5px 10px;
+  padding: .3125rem .625rem;
   position: absolute;
-  text-shadow: 0 0 2px white, 0 0 4px white;
+  text-shadow: 0 0 .125rem white, 0 0 .25rem white;
 }
 
 .artist {
@@ -129,28 +130,28 @@
   display: inline-block;
   position: relative;
   z-index: 1;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .controls {
-  border-radius: 10px;
-  border: 1px solid gray;
+  border-radius: .625rem;
+  border: .0625rem solid gray;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: .625rem;
   justify-content: stretch;
-  margin: 10px 5px;
-  padding: 10px;
+  margin: .625rem .3125rem;
+  padding: .625rem;
 }
 
 .controls :button,
 .controls select {
   background: black;
-  border: 3px solid gray;
+  border: .1875rem solid gray;
   color: white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: .9375rem;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: .3125rem .625rem;
   width: 100%;
 }
